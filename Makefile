@@ -1,7 +1,7 @@
-all: res.tex hueb.tex
-	pdflatex res.tex
+all: diversity.tex hueb.tex bloomberg-letter.tex
+	pdflatex diversity.tex
 	pdflatex hueb.tex
 	pdflatex bloomberg-letter.tex
 
-readr:
-	evince res.pdf
+readd:
+	evince diversity.pdf
