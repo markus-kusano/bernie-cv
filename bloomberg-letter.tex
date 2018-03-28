@@ -1,0 +1,90 @@
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{microtype}
+\usepackage{xpatch}
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\xpatchcmd{\makeletterclosing}{[3em]}{[0.5em]}{}{}
+
+% personal data
+\name{Bernadette}{Kusano}
+\email{bernadette.c.kusano@gmail.com}    % optional, remove the line if not wanted
+\phone{(571) 320-2129}        % optional, remove the line if not wanted
+\social[linkedin]{bernadette-kusano}
+
+\begin{document}
+% recipient data
+\recipient{Bloomberg}{731 Lexington Ave.\\New York, NY}
+\date{\today}
+\opening{Dear Hiring Manager,}
+\closing{Warmest Regards,}
+\makelettertitle
+
+My interest in Bloomberg began when, as a college student, I visited the London
+office. I was awed by the passion of the employees, the international
+workforce, and of course the aquariums on every floor! I am delighted this
+position is open, as it combines my interest in your company with the guiding
+passion of my career: diversity. 
+ 
+I excelled in all the areas listed in the job description. As an
+experienced management consultant, I understand complex scenarios, see where
+the problems lie, find solutions to these problems, and turn these solutions
+into reality. During my time at Deloitte, I noticed the lack of ethnic
+diversity across the firm, so I analyzed our internal data comparing it to
+outside demographic data. Following this, I developed a multi-department
+inclusion strategy, collaborating with senior leadership and HR, which covered
+recruitment, performance management, and external partnerships that affected
+over 1,500 employees. I’m proud to say that I was the driving force behind
+this. What started as a moment’s thought, with no internal support or funding,
+became an actionable, data-driven strategy that could be implemented across the
+workforce.
+
+On top of this, I was a committee member for the Multicultural Network, one of
+Deloitte’s employee networks. As a natural connector, this role allowed me to
+creatively exercise my relationship-building skills alongside my analytical
+problem-solving abilities.I had no roadmap, a small team, and little funding,
+so I relied on my ingenuity and ability to build relationships to turn vision
+into reality. I utilized my network to establish an internal mentoring program,
+pairing junior and senior employees across departments. Previous mentoring
+programs had failed: mine not only succeeded, but was replicated internally
+with our consultation. In addition to this, I formulated external partnerships
+with other diversity-focused organizations, interviewed senior leadership in
+live webinars about their careers, and happily volunteered to speak publicly
+about our diversity efforts within the firm. Our network won multiple internal
+and external awards, including a European Diversity Award in 2016. I can say
+with confidence that my efforts contributed significantly to this achievement.
+
+I am confident I would make an excellent fit at Bloomberg. I have the technical
+skills and understanding of organizational dynamics required to affect change.
+This, in conjunction with my interpersonal skills, allows me to create tangible
+solutions with a human touch. Finally, I am genuinely passionate about
+diversity. The work I did resulted in many late nights and false starts, but I
+was always enthusiastic because I felt like I was making a difference. 
+
+I am thrilled at the possibility of championing Bloomberg’s D\&I vision. Ever
+since my visit to Bloomberg, I have been an admirer of your organization and
+its values. I would love to have the opportunity to discuss the value I can
+bring to the team and the organization as a whole.
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
