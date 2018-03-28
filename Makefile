@@ -1,7 +1,6 @@
-all: diversity.tex hueb.tex bloomberg-letter.tex
-	pdflatex diversity.tex
-	pdflatex hueb.tex
+all: cv.tex bloomberg-letter.tex
+	pdflatex cv.tex
 	pdflatex bloomberg-letter.tex
 
 readd:
-	evince diversity.pdf
+	evince cv.pdf
