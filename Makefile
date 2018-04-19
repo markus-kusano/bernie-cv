@@ -1,6 +1,9 @@
-all: cv.tex bloomberg-letter.tex
-	pdflatex cv.tex
-	pdflatex bloomberg-letter.tex
+all: diversity-cv.tex diversity-cover-letter.tex
+	pdflatex diversity-cv.tex
+	pdflatex diversity-cover-letter.tex
 
-readd:
-	evince cv.pdf
+clean:
+	rm -f *.{pdf,aux,log,bbl,blg,lof,lot,toc,out}
+
+read:
+	evince diversity-cv.pdf
