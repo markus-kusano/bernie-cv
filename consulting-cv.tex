@@ -15,19 +15,17 @@
 \usepackage{paralist}
 \usepackage{enumitem}
 
-\setlength{\hintscolumnwidth}{1.75cm}
-\setitemize{itemsep=0pt,topsep=0pt}
+%\setlist{nosep}
+\setlist{topsep=1pt,itemsep=3pt,partopsep=1pt,parsep=1pt}
+%\setlength{\hintscolumnwidth}{1.75cm}
+%\setitemize{itemsep=0pt,topsep=0pt}
 
 % adjust the page margins
-\usepackage[scale=0.83]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
-% Hyperlinks
-%\usepackage[pdfpagelabels=false]{hyperref}								% to use hyperlinks
-%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
-%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
 %%%%
 %% the following definition is from the file moderncvstyleclassic.sty
@@ -69,34 +67,40 @@
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
-
-
 \begin{document}
 \makecvtitle
 %
 \vspace{-3.5em}
-%\section{Summary}
-%\cvline{}{
-%\begin{compactitem}[\large\color{color1}{$\bullet$}]
-%  \item Management consultant with four years' experience in human capital consulting
-%  and executing risk assurance engagements.
-%  \item Experience across industries with a focus on financial services.
-%%  \item Management consultant with four years' experience managing projects
-%%    end-to-end.
-%%    %in the areas of budgeting, risk controls, team and client
-%%    %relationships, and review and reporting.
-%%  \item Led the Employee Engagement team in the Deloitte Multicultural Network,
-%%    one of Deloitte's ten employee resource groups focused on inclusion.
-%%  %\item Consistently ranked \emph{distinctive} in performance reviews.
-%\end{compactitem}
-%}
 \section{Experience}
-\cventry{2013--2017}{Consultant}{Deloitte}{London, United Kingdom}{}{}%
-%\vspace{-1.35\baselineskip}
-%\cventry{2013--2016}{Senior Consultant, Risk Advisory}{}{}{}{Key client
-%experience includes:}%
-\cventry{}{PMO Analyst}{Fortune 500 and FTSE 100 Listed International Bank}{}{}{%
-%\begin{compactitem}[label=\large\color{color1}{$\bullet$}]
+\cventry{\large 2018--Present}{\large Program Manager}{\large American Express}{\large New York, New York}{}{}%
+\begin{itemize}[label=\large\color{color1}{$\bullet$}]
+  \item Program manager for three global teams totaling 60 people within the
+    Global Billing Network (GBN).
+  \item Lead a \$30MM program prioritizing paperless billings within GBN and our
+    partners within the organization. This program consists of $20+$ projects
+    encompassing multiple international initiatives, including digital
+    offerings, marketing, compliance, and communications.
+  \item Implemented a program structure by defining scope, milestones,
+    workflows, and stakeholder mapping.
+    %Communicate these within GBN and
+    %the wider organization to ensuring the agreement of all parties.
+  \item Interface between the Vice President and the wider team.
+    Ensure key strategic priorities are incorporated, and that project
+    escalations are reported and resolved. Kept projects on time and on
+    budget.
+  \item Create presentations for senior leadership, including the executive
+    board, ensuring our projects are prioritized within American Express. Requires
+    summarizing performance metrics, coordinating with project
+    managers, and establishing timelines and a review process. Improved efficiency and quality.
+    %improving
+    %efficiency and increasing quality.
+\end{itemize}
+\medbreak
+\cventry{\large 2013--2017}{\large Consultant}{\large Deloitte}{\large London, United Kingdom}{}{}%
+The following summarizes key projects I worked on while at Deloitte.
+
+%\cventry{}{PMO Analyst}{Fortune 500 and FTSE 100 Listed International Bank}{}{}{%
+\textbf{PMO Analyst for HSBC}
 \begin{itemize}[label=\large\color{color1}{$\bullet$}]
   \item Managed a major international digital learning \& development program.
     This program was complex, on a global scale, and the scope vastly expanded
@@ -106,22 +110,17 @@
   \item Established program governance by defining team roles and
     responsibilities. Created program plan tracking key milestones and
     deliverables globally across multiple work streams.
-  \item Found payments to vendors were often late and undocumented. Created
-    billing and invoicing system ensuring payments to outside vendors were on
-    time and correct.
-  \item Analyzed time and expense tracking in SAP to improve budget and human
-    resource forecasting.
-  \item Compliance officer ensuring fulfillment of Deloitte's quality and risk
-    management objectives. Found and resolved outstanding team compliance issues.
-   % 
-   % Performed daily information security checks,
-   % onboarded and offboared all team members, monitored team compliance
-   % training, and investigated and resolved independence risks.
-    %in the areas of: client confidentially, information
-    %security, and conflict and independence. 
+  %\item Found payments to vendors were often late and undocumented. Created
+  %  billing and invoicing system ensuring payments to outside vendors were on
+  %  time and correct.
+  %\item Analyzed time and expense tracking in SAP to improve budget and human
+  %  resource forecasting.
+  %\item Compliance officer ensuring fulfillment of Deloitte's quality and risk
+  %  management objectives. Found and resolved outstanding team compliance issues.
 \end{itemize}
-}
-\cventry{}{Program Lead}{Internal Respect and Inclusion Program}{}{}{%
+%}
+%\cventry{}{Program Lead}{Internal Respect and Inclusion Program}{}{}{%
+\textbf{Program Lead for Deloitte Respect and Inclusion Program}
 %
 \begin{itemize}[label=\large\color{color1}{$\bullet$}]
   \item Spearheaded multi-department respect and inclusion plan altering the
@@ -132,18 +131,18 @@
     and HR in creation of plan. Presented to department head, and collaborated with senior
     partners across departments.
 \end{itemize}
-}
-\cventry{}{Team Coordinator}{IFRS 17 Business Development}{}{}{%
-\begin{itemize}[label=\large\color{color1}{$\bullet$}]
-  \item Provided support for IFRS 17 requirements within the
-    insurance industry. Worked with SMEs to create training sessions for senior
-    leadership globally within Deloitte's center of excellence.
-  \item Surveyed IFRS 17 expectations from leading industry clientele, conducted
-    competitive analysis, and supported bid and proposal work.
-% 
-\end{itemize}
-}
-\cventry{}{Project Manager}{Leading Global Entertainment and Talent Agency}{}{}{%
+%\cventry{}{Team Coordinator}{IFRS 17 Business Development}{}{}{%
+%\begin{itemize}[label=\large\color{color1}{$\bullet$}]
+%  \item Provided support for IFRS 17 requirements within the
+%    insurance industry. Worked with SMEs to create training sessions for senior
+%    leadership globally within Deloitte's center of excellence.
+%  \item Surveyed IFRS 17 expectations from leading industry clientele, conducted
+%    competitive analysis, and supported bid and proposal work.
+%% 
+%\end{itemize}
+%}
+%\cventry{}{Project Manager}{Leading Global Entertainment and Talent Agency}{}{}{%
+\textbf{Project Manager for Endeavor Talent Agency}
 \begin{itemize}[label=\large\color{color1}{$\bullet$}]
   \item Reported directly to UK partner, and coordinated with global financial
     and IT teams. Agreed on project scope, budget, and timelines.
@@ -154,19 +153,20 @@
     %Areas of testing include: data center and
     %network operations, change management, and logical security.
 \end{itemize}
-}
-\cventry{}{Head of Employee Engagement}{Deloitte Multicultural Network}{}{}{%
+%\cventry{}{Head of Employee Engagement}{Deloitte Multicultural Network}{}{}{%
+\textbf{Head of Employee Engagement for Deloitte Multicultural Network}
 \begin{itemize}[label=\large\color{color1}{$\bullet$}]
   \item Sourced and managed external-party relationships to arrange monthly
-    events with over 50 attendees. Received positive feedback from attendees and
-    sponsors.
+    events with over 50 attendees.
+    %Received positive feedback from attendees and
+    %sponsors.
 \item Increased accessibility of senior leadership through quarterly live
-  interviews discussing their career challenges and development. Over 100
-    attendees per session.
+  interviews.
+    %discussing their career challenges and development. Over 100
+    %attendees per session.
   \item Created monthly newsletter showcasing diversity in the workplace across
-    departments, grades, and backgrounds.
+    departments.%, grades, and backgrounds.
 \end{itemize}%
-}
 %
 \section{Education and Qualifications}
 % arguments 3 to 6 can be left empty
